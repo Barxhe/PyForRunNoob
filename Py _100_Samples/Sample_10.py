@@ -2,4 +2,5 @@
 
 import time
 
-程序分析：无。
+for i in range(10):
+    print(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time())))
